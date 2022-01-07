@@ -40,7 +40,7 @@ def configure_logger(verbose):
 @click.option('--config-file', type=click.Path(exists=True, file_okay=True, dir_okay=False), required=True)
 @click.option('--verbose', is_flag=True)
 def main(config_file, verbose):
-    """Update the categories in Marketplace PIM based on FLAPIM categories."""
+    """Template Script Command Description."""
 
     configure_logger(verbose)
     config = load_config_file(config_file)
